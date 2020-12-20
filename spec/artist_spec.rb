@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe "Artist" do
 
-  let!(:adele) { Artist.new("Adele") }
+  let!(:adele) { Artist.new("Adele")}
   let!(:drake) { Artist.new("Drake")}
 
     describe "#new" do
